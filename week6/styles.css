@@ -1,0 +1,109 @@
+body{
+    background-color: rgba(160, 144, 255, 0.733);
+}
+
+.A{
+    text-align: center;
+    text-shadow: rgb(235, 198, 134);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+img {
+    border-radius: 5%;
+    border: 2px solid;
+    max-width: auto;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.39);
+    margin-top: 15px;
+    
+    
+}
+.B{
+    background-color: rgb(255, 165, 92);
+    background-size: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 15px;
+    border-width: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: auto;
+  height: auto;
+  border-style:ridge;
+  height: auto;
+ margin-top: 20px;
+
+}
+.C{
+    background-color: rgb(255, 159, 121);
+    background-size: auto;
+    padding-left: 20px;
+
+    font-weight: inherit;
+    box-sizing: border-box;
+      text-align:justify;
+    width: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    height: auto ;
+    border-style:ridge;
+    font-size: 18px;
+    border-width: 15px;
+
+
+  }
+
+
+
+
+
+.D{
+     background-color: rgb(255, 190, 146);
+    background-size: auto;
+    border-width: inherit;
+    padding-left: 15px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   width: 44%;
+  height: auto;
+ 
+  border-style:ridge;
+  float:left;
+  border-width: 15px;
+  font-size: 24px;
+  }
+
+.E{
+  background-color: rgb(255, 195, 106);
+  background-size: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 44%;
+  height: auto;
+  float:right;
+ border-style:ridge;
+ bottom: 20%;
+ position: relative;
+ border-width: 15px;
+ font-size: 18px;
+ }
+
+.F{
+    background-color: rgba(255, 177, 74, 0.644);
+   background-size: 20px;
+   padding-left: 15px;
+   padding-right: 15px;
+    border: lightcyan;
+    border-style:ridge;
+    border-width: 12px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 75%;
+}
+
+.content{
+  width:800px; 
+  margin:0 auto;
+}
+
+
+
