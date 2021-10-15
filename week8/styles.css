@@ -1,0 +1,143 @@
+body{
+  background-image: url("background2.png");
+  background-repeat: repeat-x:repeat-y;
+}
+.A{
+    text-align: center;
+    text-shadow: 1px 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: rgba(255, 168, 70, 0.993);
+    border-style: solid;
+    border-color: rgba(236, 198, 147, 0.459);
+    border-radius: 10px 25px 15px;
+  }
+
+img {
+    border: 2px solid;
+    border-radius: 10px 60px 25px;
+    width: auto;
+    height: auto;
+    object-fit:cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.39);
+    margin-top: 15px;
+    
+    
+}
+.B{
+    background-color: rgb(255, 165, 92);
+    background-size: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 15px;
+    border-width: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: auto;
+  height: auto;
+  border-style:solid;
+  border-color: rgba(255, 242, 218, 0.274);
+  height: auto;
+ margin-top: 20px;
+ border-radius: 10px 25px 15px;
+
+
+}
+.C{
+    background-color: rgb(255, 159, 121);
+    background-size: auto;
+    padding-left: 20px;
+
+    font-weight: inherit;
+    box-sizing: border-box;
+      text-align:justify;
+    width: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px 25px 15px;
+    height: auto ;
+    border-style:solid;
+    border-color: rgba(216, 211, 191, 0.199);
+    font-size: 18px;
+    border-width: 15px;
+  }
+  
+.D{
+     background-color: rgb(255, 190, 146);
+    background-size: auto;
+    border-width: inherit;
+    padding-left: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   width: 45%;
+  height: 580px;
+  border-style:solid;
+  border-color: rgba(216, 204, 191, 0.295);
+  float:left;
+  border-width: 15px;
+  font-size: 21px;
+  border-radius: 10px 25px 15px;
+  
+}
+
+.E{
+  background-color: rgb(255, 195, 106);
+  background-size: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 44%;
+  height: 580px;
+  float:right;
+  border-style:solid;
+  border-color: rgba(216, 191, 216, 0.233);
+ bottom: 20%;
+ position: relative;
+ border-width: 15px;
+ font-size: 18px;
+ border-radius: 10px 25px 15px;
+
+ }
+
+.F{
+    background-color: rgb(255, 177, 74);
+   background-size: 20px;
+   padding-left: 15px;
+   padding-right: 15px;
+    border: lightcyan;
+    border-style:solid;
+    border-color: rgba(216, 191, 216, 0.315);
+    border-width: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 80%;
+    border-radius: 10px 25px 15px;
+
+}
+
+
+
+.content{
+  width:800px; 
+  margin:0 auto;
+}
+
+.button{
+  background-color: tomato;
+  padding: 12px 12px;
+  text-align: center;
+  border-color: rgba(245, 179, 179, 0.301);
+  background-size: 15px 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+  .button:hover {
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    .content {
+      width: 75%;
+    }
+    @media only screen and (max-width: 768px) {
+      /* For desktops: */
+      .content {
+        width: 100%;
+      }
